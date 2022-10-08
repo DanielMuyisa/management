@@ -12,7 +12,8 @@ class _MyRegisterState extends State<MyRegister> {
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
-        image: DecorationImage(image: AssetImage(''), fit: BoxFit.cover),
+        image: DecorationImage(
+            image: AssetImage('assets/images/register.png'), fit: BoxFit.cover),
       ),
       child: Scaffold(
         appBar: AppBar(
