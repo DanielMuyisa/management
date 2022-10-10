@@ -12,6 +12,8 @@ class Signin extends StatefulWidget {
 class _SigninState extends State<Signin> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: Center(child: Text('SIGNIN')),
+    );
   }
 }
